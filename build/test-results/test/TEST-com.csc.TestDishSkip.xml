@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.csc.TestDishSkip" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-11-28T07:07:30" hostname="BENS-LAPTOP" time="0.034">
+  <properties/>
+  <testcase name="testPushAndSize()" classname="com.csc.TestDishSkip" time="0.018"/>
+  <testcase name="testPop()" classname="com.csc.TestDishSkip" time="0.002"/>
+  <testcase name="testPushBeyondCapacity()" classname="com.csc.TestDishSkip" time="0.003"/>
+  <testcase name="testPeek()" classname="com.csc.TestDishSkip" time="0.001"/>
+  <testcase name="testPopFromEmptyStack()" classname="com.csc.TestDishSkip" time="0.001"/>
+  <testcase name="testPeekFromEmptyStack()" classname="com.csc.TestDishSkip" time="0.001"/>
+  <system-out><![CDATA[The stack is full. Cannot add more dishes.
+The stack is empty. Cannot pop any dishes.
+The stack is empty. Nothing to peek.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
